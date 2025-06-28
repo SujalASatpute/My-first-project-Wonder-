@@ -1,0 +1,157 @@
+/* NAVBAR */
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;  /*//override the bootstrap */
+}
+
+/* FOOTER */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin-right: 0.5rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+
+}
+
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+
+
+.f-info {
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    
+}
+
+.red {
+    color: #fe424d;
+}
+
+/* INDEX */
+
+.container {
+    /* display: flex; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+    padding: 20px;
+}
+
+/* Style for each card */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 200px; /* Adjust as needed */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    /* border-radius: 10px; */
+    background-color: #fff;
+    transition: transform 0.2s;
+    gap: 10px;
+    border: none;
+    margin-top: 2rem;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Image inside card */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Optional: Title or content inside card */
+.card-img-tio {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important; 
+}
+
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* New Page */
+
+.btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* Edit Page */
+
+/* Show Page */
+
+.del{
+    color: white;
+    background-color: #222222;
+      border-radius: 6px !important;
+      padding: 5px 18px;
+}
+.show-img {
+    height: 30vh;
+   
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* //signup button */
+
+.bt {
+    
+    color: white;
+    background-color: rgb(9, 145, 9);
+      border-radius: 6px !important;
+      padding: 5px 18px;
+}
